@@ -47,6 +47,6 @@ jobs:
             upload/*ipa
           generate_release_notes: true
           fail_on_unmatched_files: true
-          draft: true
+          draft: false
         env:
           GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
